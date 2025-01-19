@@ -18,7 +18,7 @@ o
 // Função que exibe a mensagem inicial
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto', false);
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10', true);
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100', true);
 }
 
 // Função para verificar o chute do usuário
@@ -44,7 +44,7 @@ function verificarChute() {
 
 // Função para gerar um número aleatório único entre 1 e 10
 function gerarNumeroAleatorio() {
-    let numero = Math.floor(Math.random() * 10) + 1;
+    let numero = Math.floor(Math.random() * 100) + 1;
     let quantidaDeElementosNaLIsta = listaDeNumerosSorteados.length;
 
     // Limpa a lista se já atingiu o limite de 10 números sorteados
