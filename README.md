@@ -1,5 +1,5 @@
 # jogo-numero-secreto
-Projeto do Curso de Lógica de programação: mergulhe em programação com JavaScript da Alura e 
+ ### Projeto do Curso de Lógica de programação: mergulhe em programação com JavaScript da Alura e 
 Curso de Lógica de Programação: explore funções e listas.
 ---
 ## Como jogar:
@@ -14,6 +14,6 @@ O valor máximo do número secreto pode ser ajustado alterando a variável `valo
 ### Passos:
 
 1. Abra o arquivo JavaScript do jogo.
-2. Localize a linha que define a variável `valorMaximo`:
+2. Localize a linha que define a variável `numeroMaximo`:
    ```javascript
-   let valorMaximo = 100;
+   let numeroMaximo = 100;
